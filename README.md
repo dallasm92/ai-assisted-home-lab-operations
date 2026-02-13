@@ -35,6 +35,28 @@ Note: Sensitive details are intentionally redacted or generalized.
 - Backup and alert paths tested successfully
 - Service access simplified through stable internal hostnames
 
+## Before/After Metrics (Interview-Friendly)
+
+| Area | Before | After | Impact |
+|---|---|---|---|
+| Hosts maintained per cycle | 0 automated | 3 hosts managed in one workflow (`macmint`, `asus-server`, `pi-core`) | Multi-node maintenance became repeatable |
+| Daily patching effort | Manual execution each day | Scheduled automation at 01:00 on always-on hosts + one manual run script for full lab | Reduced repetitive daily admin work |
+| Automated maintenance timers | 0 | 4 active timers (`lab-auto-update`, `casaos-maintenance`, `duplicati-nightly-backup`, plus summary workflow usage) | Predictable maintenance windows |
+| Failure visibility | Reactive/manual log checking | `OnFailure` alert handlers wired for update, CasaOS maintenance, and backup jobs | Faster detection of failed automation runs |
+| Service access consistency | Mixed direct ports and ad-hoc paths | Standardized internal routing via NPM + Pi-hole local DNS names (`*.lan`) | Faster troubleshooting and easier daily operations |
+| Backup posture | No validated automated config backup run | Encrypted nightly Duplicati backup with retention policy | Measurable recovery readiness |
+
+### Measured Results from Initial Validation
+- Duplicati seed backup completed successfully:
+  - Duration: 5m39s
+  - Data uploaded: ~672.56 MB
+  - Remote files created: 29
+- CasaOS application stack health validated after update cycle:
+  - 8 containers running
+  - No unhealthy containers reported at validation time
+- Firewall posture tightened:
+  - Removed unused inbound `80/tcp` LAN allow when not required, then re-opened deliberately for reverse proxy workflow
+
 ## Repository Contents
 - `docs/implementation-summary.md` - architecture and implementation notes
 - `docs/operations-journal-2026-02-13.md` - detailed timeline of actions and results
