@@ -25,6 +25,7 @@ Demonstrate production-style operational discipline with AI assistance while mai
 - `docs/security-notes.md`
 - `docs/current-operations-snapshot.md`
 - `docs/monitoring-evidence-sanitized.md`
+- `docs/codex-in-homelab.md`
 
 ## Security Boundaries
 - Public docs omit real internal addressing and credentials
