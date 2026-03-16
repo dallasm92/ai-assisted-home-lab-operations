@@ -2,10 +2,22 @@
 
 Practical implementation of secure AI-assisted infrastructure operations across a multi-host home lab.
 
-Last reviewed: February 17, 2026
+Last reviewed: March 16, 2026
 
 ## Objective
 Demonstrate production-style operational discipline with AI assistance while maintaining strict security boundaries.
+
+## What This Repo Best Demonstrates
+- repeatable validation before and after changes
+- monitoring, backup, and alert workflow design
+- secure AI-assisted operations with explicit guardrails
+
+If a reviewer wants broader architecture context first:
+- see `home-lab-overview`
+
+If a reviewer wants more traditional support troubleshooting first:
+- see `it-support-labs`
+- see `ad-lab-windows-server-2022`
 
 ## Lab Scope (Sanitized)
 - `macmint`: workstation
