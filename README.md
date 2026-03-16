@@ -26,6 +26,9 @@ Demonstrate production-style operational discipline with AI assistance while mai
 - `docs/current-operations-snapshot.md`
 - `docs/monitoring-evidence-sanitized.md`
 - `docs/codex-in-homelab.md`
+- `docs/service-consolidation-runbook.md`
+- `docs/remote-admin-from-linux.md`
+- `docs/windows-ad-lab-pattern.md`
 
 ## Security Boundaries
 - Public docs omit real internal addressing and credentials
