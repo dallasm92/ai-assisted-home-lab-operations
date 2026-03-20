@@ -42,6 +42,8 @@ If a reviewer wants more traditional support troubleshooting first:
 - `docs/remote-admin-from-linux.md`
 - `docs/windows-ad-lab-pattern.md`
 - `docs/dashboard-and-host-observability-pattern.md`
+- `docs/backup-restore-and-resilience-pattern.md`
+- `docs/immutable-ops-and-incident-automation.md`
 
 ## Security Boundaries
 - Public docs omit real internal addressing and credentials
