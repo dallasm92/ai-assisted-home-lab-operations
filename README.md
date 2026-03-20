@@ -44,6 +44,7 @@ If a reviewer wants more traditional support troubleshooting first:
 - `docs/dashboard-and-host-observability-pattern.md`
 - `docs/backup-restore-and-resilience-pattern.md`
 - `docs/immutable-ops-and-incident-automation.md`
+- `docs/phased-service-cutover-pattern.md`
 
 ## Security Boundaries
 - Public docs omit real internal addressing and credentials
