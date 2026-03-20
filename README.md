@@ -41,6 +41,7 @@ If a reviewer wants more traditional support troubleshooting first:
 - `docs/service-consolidation-runbook.md`
 - `docs/remote-admin-from-linux.md`
 - `docs/windows-ad-lab-pattern.md`
+- `docs/dashboard-and-host-observability-pattern.md`
 
 ## Security Boundaries
 - Public docs omit real internal addressing and credentials
