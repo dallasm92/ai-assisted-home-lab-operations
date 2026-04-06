@@ -2,7 +2,7 @@
 
 Practical implementation of secure AI-assisted infrastructure operations across a multi-host home lab.
 
-Last reviewed: March 16, 2026
+Last reviewed: April 6, 2026
 
 ## Objective
 Demonstrate production-style operational discipline with AI assistance while maintaining strict security boundaries.
@@ -45,6 +45,8 @@ If a reviewer wants more traditional support troubleshooting first:
 - `docs/backup-restore-and-resilience-pattern.md`
 - `docs/immutable-ops-and-incident-automation.md`
 - `docs/phased-service-cutover-pattern.md`
+- `docs/conditional-workstation-node-pattern.md`
+- `docs/container-host-reboot-recovery-pattern.md`
 
 ## Security Boundaries
 - Public docs omit real internal addressing and credentials
