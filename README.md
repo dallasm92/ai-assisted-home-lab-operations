@@ -2,7 +2,7 @@
 
 Practical implementation of secure AI-assisted infrastructure operations across a multi-host home lab.
 
-Last reviewed: April 6, 2026
+Last reviewed: April 13, 2026
 
 ## Objective
 Demonstrate production-style operational discipline with AI assistance while maintaining strict security boundaries.
@@ -13,11 +13,11 @@ Demonstrate production-style operational discipline with AI assistance while mai
 - secure AI-assisted operations with explicit guardrails
 
 If a reviewer wants broader architecture context first:
-- see `home-lab-overview`
+- see [Home Lab Overview](https://github.com/dallasm92/home-lab-overview)
 
 If a reviewer wants more traditional support troubleshooting first:
-- see `it-support-labs`
-- see `ad-lab-windows-server-2022`
+- see [IT Support Labs](https://github.com/dallasm92/it-support-labs)
+- see [Active Directory Lab](https://github.com/dallasm92/ad-lab-windows-server-2022)
 
 ## Lab Scope (Sanitized)
 - `macmint`: workstation
