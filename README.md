@@ -4,6 +4,9 @@ Practical implementation of secure AI-assisted infrastructure operations across 
 
 Last reviewed: April 13, 2026
 
+Social preview asset:
+- [assets/social-preview.png](assets/social-preview.png)
+
 ## Objective
 Demonstrate production-style operational discipline with AI assistance while maintaining strict security boundaries.
 
